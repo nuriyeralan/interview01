@@ -1,0 +1,6 @@
+# Your orchestrator's build output — add your own patterns as needed.
+bin/
+obj/
+node_modules/
+dist/
+*.log

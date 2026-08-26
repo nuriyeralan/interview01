@@ -1,0 +1,5 @@
+# Simulator binaries are large and must never be line-ending/text normalized.
+*.exe filter=lfs diff=lfs merge=lfs -text
+MockAdo.Server filter=lfs diff=lfs merge=lfs -text
+# The bash runner must stay LF even if checked out on Windows.
+*.sh text eol=lf
